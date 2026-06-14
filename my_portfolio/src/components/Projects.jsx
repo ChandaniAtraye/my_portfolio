@@ -36,7 +36,7 @@ const Projects = () => {
                                     <div className="col-md-5 mt-4 mt-md-0">
                                         <h4>Portfolio Website</h4>
                                         <p>Personal portfolio website created using React and Bootstrap.</p>
-                                        <a href="#" className="btn btn-primary">
+                                        <a href="https://chandaniatraye.github.io/my_portfolio/" className="btn btn-primary">
                                             Project Link <i className="bi bi-arrow-right"></i>
                                         </a>
                                     </div>
