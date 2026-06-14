@@ -20,9 +20,11 @@ const sendbtn={
     background:"#1A5CFF",
     color:"#fff",
     borderRadius:"8px",
-    padding:"12px 14px",
+    padding:"10px 15px",
+    fontSize:"0.9rem",
     fontWeight:600,
-    border:"none"
+    border:"none",
+    
 
 }
 
@@ -30,11 +32,11 @@ const Contact = () => {
     
   return (
     <>
-     <section id="contact" className="mt-4 mb-3 border border-rounded py-5" style={{background:"#0D1B2A",padding:"60px 0"}}>
+     <section id="contact" className="mb-3 border border-rounded py-5" style={{background:"#0D1B2A",padding:"60px 0",scrollMarginTop:"80px"}}>
             <form>
                 <div className="container ">
                     <div className="row d-flex justify-content-center">
-                        <div className="text-center mb-5">
+                        <div className="text-center mb-2">
                             <h3 style={{fontWeight:700,fontSize:"2rem",color:"#ffffff"}}> Contact me </h3>
                         <p style={{color:"#00C2CB",fontSize:"0.85rem",letterSpacing:"0.08em"}}>GET IN TOUCH</p>
 
@@ -67,7 +69,7 @@ const Contact = () => {
                                     <textarea className="form-control"style={textArea} id="exampleFormControlTextarea1" rows="2"></textarea>
                                 </div>
                                 <div className="col-md-3">
-                                    <button className=" btn btn-primary px-4" style={sendbtn}>Send Message......</button>
+                                    <button className=" btn btn-primary" style={sendbtn}>Send Message</button>
                                 </div>
                             </div>
                         </div>

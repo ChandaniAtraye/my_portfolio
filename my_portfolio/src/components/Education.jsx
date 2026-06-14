@@ -3,7 +3,7 @@ import './Education.css';
 const Education = () => {
     return (
         <>
-            <section id="education" className="mt-4 mb-3 " style={{background:"#F0F4FF",padding:"60px 0"}}>
+            <section id="education" className="mb-3 " style={{background:"#F0F4FF",padding:"60px 0",scrollMarginTop:"80px"}}>
                 <div className="container">
                      <div className=" row  shadow-sm mb-3">
                     <h3 className="mb-4 text-center" style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}> Education </h3>

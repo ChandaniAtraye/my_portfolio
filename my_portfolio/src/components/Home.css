@@ -1,11 +1,13 @@
 .profile_img{
-    width:250px;
-    height:250px;
+    width:260px;
+    height:260px;
     border-radius:20px;
     object-fit:cover;
     object-position:top;
-    margin-top:10px;
+   
     border:3px solid #00C2CB;
+    box-shadow: 0 8px 32px rgba(0,194,203,0.3);
+    
 }
 .intro{
     color:#ffffff;
@@ -22,5 +24,28 @@
 }
 .intro p{
     color:rgba(255,255,255,0.6);
+    
+}
+.btn1{
+    background:#1A5CFF;
+    color:#fff;
+    padding:8px 20px;
+    font-weight: 600;
+    font-size:0.85rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 12px;
+}
+.btn1:hover{
+    border:2px solid #00C2CB;
+    color:#fff;
+    
+}
+.social a{
+    color:rgba(255,255,255,0.75) !important;
+    transition: none !important;
+}
+.social a:hover{
+    color:#00C2CB !important;
     
 }

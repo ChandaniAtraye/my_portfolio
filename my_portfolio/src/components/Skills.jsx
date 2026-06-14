@@ -7,9 +7,9 @@ import "./Skills.css"
 const Skills = () => {
     return (
         <>
-            <section id="skills" className="mt-4 mb-3 " style={{background:"#F0F4FF",padding:"60px 0"}}>
+            <section id="skills" className="mb-3 " style={{background:"#F0F4FF",padding:"60px 0",scrollMarginTop:"80px"}}>
                 <div className="container">
-                    <h3 className="mb-4 text-center" style={{fontweight:700,fontsize:"2rem",color:"#0D1B2A"}}>My skills</h3>
+                    <h3 className="mb-4 text-center" style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}>My Skills</h3>
                     
                     <div className="row">
                         <div className="col-md-3">

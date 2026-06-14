@@ -5,9 +5,9 @@ import './Projects.css';
 const Projects = () => {
     return (
         <>
-            <section id="projects" className=" mt-5 p-3">
+            <section id="projects" className="p-3"style={{background:"#ffffff",padding:"60px 0",scrollMarginTop:"80px"}}>
                 <div className="container">
-                    <h2 className="mb-5 text-center">Projects</h2>
+                    <h2 className="mb-5 text-center"style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}>Projects</h2>
                     <div id="projectCarousel" className="carousel slide mb-4" >
                         <div className="carousel-inner">
 
@@ -18,9 +18,9 @@ const Projects = () => {
                                     </div>
 
                                     <div className="col-md-5 mt-4 mt-md-0 ">
-                                        <h4>Healthcare Website</h4>
-                                        <p>Responsive healthcare website using HTML, CSS and Bootstrap.</p>
-                                        <a href="https://chandaniatraye.github.io/healthcare-hospital" className="btn btn-primary">
+                                        <h4 style={{fontWeight:700,color:"#0D1B2A",marginBottom:"8px"}}>Healthcare Website</h4>
+                                        <p style={{color:"#6B7A99",fontSize:"0.9rem",marginBottom:"16px"}}>Responsive healthcare website using HTML, CSS and Bootstrap.</p>
+                                        <a href="https://chandaniatraye.github.io/healthcare-hospital" style={{color:"#fff",padding:"10px 22px",borderRadius:"8px",fontWeight:600,fontSize:"0.9rem"}} className="btn btn-primary">
                                             Project Link <i className="bi bi-arrow-right"></i>
                                         </a>
                                     </div>
@@ -45,11 +45,11 @@ const Projects = () => {
 
                         </div>
 
-                        <button className="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                        <button className="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev" style={{left:"-50px"}}>
                             <i className="bi bi-arrow-left-circle-fill carousel-arrow"></i>
                         </button>
 
-                        <button className="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                        <button className="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next"style={{right:"-30px"}}>
                            <i className="bi bi-arrow-right-circle-fill carousel-arrow"></i>
                         </button>
                     </div>

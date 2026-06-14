@@ -1,10 +1,10 @@
 const About = () => {
     return (
         <>
-            <section id="about" className="mt-4 mb-3 " style={{background:"#ffffff",padding:"60px 0"}}>
+            <section id="about" className="mb-3 " style={{background:"#ffffff",padding:"60px 0",scrollMarginTop:"80px"}}>
                 <div className="container ">
                     <div className="row">
-                        <h2 className="mb-4 text-center" style={{fontweight:700,fontSize:"2rem",color:"#0D1B2A"}}> About Me </h2>
+                        <h2 className="mb-4 text-center" style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}> About Me </h2>
                         <div className="col-md-6  p-3 mt-4 mb-4  ">
                             <h3 style={{fontweight:700,color:"#0D1B2A",marginBottom:"8px"}}> Career Objective </h3>
                             <div style={{width:"50px",height:"4px",background:"#1A5CFF",borderRadius:"4px",marginBottom:"16px"}}></div>
