@@ -1,7 +1,11 @@
-.card{
-    border-left:"4px solid #00C2CB";
-    border-radius: "12px";
-    background: "#ffffff";
-    box-shadow: "0 4px 12px rgba(0,0,0,0.06)";
+.edu{
+    border-left:4px solid #00C2CB !important;
+    border-radius: 20px !important;
+    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06) !important;
+    
 
+}
+.edu:hover{
+    transform:translateX(5px);
 }

@@ -12,8 +12,8 @@ const Skills = () => {
                     <h3 className="mb-4 text-center" style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}>My Skills</h3>
                     
                     <div className="row">
-                        <div className="col-md-3">
-                            <div className="card c1 h-100">
+                        <div className="col-md-3 mb-2">
+                            <div className=" c1 h-100">
                                 <img src={HtmlImage} className=" image card-img-top" alt="HTML_img"/>
                                 <div className="card-body">
                                     <p className="card-text">Semantic webpage structure and responsive layouts.</p>
@@ -21,8 +21,8 @@ const Skills = () => {
                             </div>
 
                         </div> 
-                        <div className="col-md-3">
-                            <div className="card c1 h-100">
+                        <div className="col-md-3  mb-2">
+                            <div className=" c1 h-100">
                                 <img src={CssImage} className=" image card-img-top" alt="Css_img"  />
                                 <div className="card-body">
                                     <p className="card-text">Styling modern responsive websites using CSS and Flexbox.</p>
@@ -30,8 +30,8 @@ const Skills = () => {
                             </div>
 
                         </div>
-                        <div className="col-md-3">
-                            <div className="card c1 h-100">
+                        <div className="col-md-3  mb-2">
+                            <div className=" c1 h-100">
                                 <img src={JsImage} className=" image card-img-top" alt="Js_img" />
                                 <div className="card-body">
                                     <p className="card-text">Adding interactivity and dynamic functionality to web pages .</p>
@@ -40,8 +40,8 @@ const Skills = () => {
 
                         </div>
                         
-                        <div className="col-md-3">
-                            <div className="card c1 h-100">
+                        <div className="col-md-3  mb-2">
+                            <div className=" c1 h-100">
                                 <img src={DbImage} className=" image card-img-top" alt="Db_img" />
                                 <div className="card-body">
                                     <p className="card-text">Managing and querying relational databases using SQL.</p>

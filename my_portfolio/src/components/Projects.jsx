@@ -20,7 +20,7 @@ const Projects = () => {
                                     <div className="col-md-5 mt-4 mt-md-0 ">
                                         <h4 style={{fontWeight:700,color:"#0D1B2A",marginBottom:"8px"}}>Healthcare Website</h4>
                                         <p style={{color:"#6B7A99",fontSize:"0.9rem",marginBottom:"16px"}}>Responsive healthcare website using HTML, CSS and Bootstrap.</p>
-                                        <a href="https://chandaniatraye.github.io/healthcare-hospital" style={{color:"#fff",padding:"10px 22px",borderRadius:"8px",fontWeight:600,fontSize:"0.9rem"}} className="btn btn-primary">
+                                        <a href="https://chandaniatraye.github.io/healthcare-hospital" target="_blank" rel="noopner noreferrer"  style={{color:"#fff",padding:"10px 22px",borderRadius:"8px",fontWeight:600,fontSize:"0.9rem"}} className="btn btn-primary">
                                             Project Link <i className="bi bi-arrow-right"></i>
                                         </a>
                                     </div>
@@ -36,7 +36,7 @@ const Projects = () => {
                                     <div className="col-md-5 mt-4 mt-md-0">
                                         <h4>Portfolio Website</h4>
                                         <p>Personal portfolio website created using React and Bootstrap.</p>
-                                        <a href="https://chandaniatraye.github.io/my_portfolio/" className="btn btn-primary">
+                                        <a href="https://chandaniatraye.github.io/my_portfolio/" target="_blank" rel="noopner noreferrer" className="btn btn-primary">
                                             Project Link <i className="bi bi-arrow-right"></i>
                                         </a>
                                     </div>

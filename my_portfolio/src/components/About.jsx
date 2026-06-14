@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <>
-            <section id="about" className="mb-3 " style={{background:"#ffffff",padding:"60px 0",scrollMarginTop:"80px"}}>
+            <section id="about" className="mb-3 " style={{background:"#F0F4FF",padding:"60px 0",scrollMarginTop:"80px"}}>
                 <div className="container ">
                     <div className="row">
                         <h2 className="mb-4 text-center" style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}> About Me </h2>

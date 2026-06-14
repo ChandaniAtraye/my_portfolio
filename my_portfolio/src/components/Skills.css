@@ -14,10 +14,17 @@
     
 
 }
+.c1{
+    border-radius:30px;
+    border:3px solid #00C2CB;
+    margin-top: 2px;
+    transition:transform 0.5s;
+}
 .c1:hover{
     transform:translateY(-5px);
     box-shadow: 0 12px 32px rgba(26, 92, 255,0.15);
-    border-color:#1A5CFF;
+    border-color:#1378a0;
+    
 
 }
 
@@ -32,4 +39,5 @@
     height:120px;
     object-fit:contain;
     padding:10px;
+
 }

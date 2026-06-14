@@ -18,6 +18,9 @@ const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#about">About</a>
               </li>
+               <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#education">Education</a>
+              </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#skills">Skills</a>
               </li>
@@ -25,8 +28,9 @@ const Navbar = () => {
                 <a className="nav-link active" aria-current="page" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#education">Education</a>
+                <a className="nav-link active" aria-current="page" href="#experience">Experience</a>
               </li>
+             
               
               {/* <li className="nav-item">
                   <a className="nav-link" aria-current="page" href="#services">Services</a>
