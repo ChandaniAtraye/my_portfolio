@@ -37,8 +37,8 @@ A personal portfolio website built using React.js to showcase my skills, educati
 
 ## 🎓 Education
 
-**B.Tech in Electronics & Telecommunication Engineering**
-Jhulelal Institute of Technology, Nagpur
+**B.Tech in Electronics & Telecommunication Engineering** <br>
+Jhulelal Institute of Technology, Nagpur <br>
 CGPA: 8.58
 
 ## 📧 Contact
