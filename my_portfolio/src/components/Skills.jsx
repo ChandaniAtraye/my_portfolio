@@ -2,6 +2,7 @@ import HtmlImage from "../assets/images/html.png";
 import CssImage from "../assets/images/css-3.png";
 import JsImage from "../assets/images/java-script.png";
 import DbImage from "../assets/images/database.png";
+import ReactImage from "../assets/images/react.png";
 import "./Skills.css"
 
 const Skills = () => {
@@ -39,6 +40,24 @@ const Skills = () => {
                             </div>
 
                         </div>
+                        <div className="col-md-3  mb-2">
+                            <div className=" c1 h-100">
+                                <img src={ReactImage} className=" image card-img-top" alt="Js_img" />
+                                <div className="card-body">
+                                    <p className="card-text">React</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        {/* <div className="col-md-3  mb-2">
+                            <div className=" c1 h-100">
+                                <img src={} className=" image card-img-top" alt="Js_img" />
+                                <div className="card-body">
+                                    <p className="card-text">MongoDB</p>
+                                </div>
+                            </div>
+
+                        </div> */}
                         
                         <div className="col-md-3  mb-2">
                             <div className=" c1 h-100">
