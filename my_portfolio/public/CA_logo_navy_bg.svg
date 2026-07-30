@@ -1,0 +1,16 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadowNavy" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="3" dy="7" stdDeviation="5" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+    <style>
+      .letterC { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; fill: #2dd4bf; }
+      .letterA { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <circle cx="200" cy="200" r="190" fill="#0d1321" />
+
+  <text x="140" y="285" font-size="290" text-anchor="middle" class="letterC" filter="url(#shadowNavy)">C</text>
+  <text x="290" y="310" font-size="270" text-anchor="middle" class="letterA" filter="url(#shadowNavy)">A</text>
+</svg>

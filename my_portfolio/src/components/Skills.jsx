@@ -1,8 +1,13 @@
 import HtmlImage from "../assets/images/html.png";
 import CssImage from "../assets/images/css-3.png";
 import JsImage from "../assets/images/java-script.png";
-import DbImage from "../assets/images/database.png";
-import ReactImage from "../assets/images/react.png";
+import DbImage from "../assets/images/mysql-original.svg";
+import ReactImage from "../assets/images/React-icon.svg";
+import mongoDBImage from "../assets/images/MongoDB_Logo.svg";
+import NodeImage from "../assets/images/Node.js_logo.svg";
+import gitImage from "../assets/images/git.svg";
+import githubImage from "../assets/images/github.svg";
+
 import "./Skills.css"
 
 const Skills = () => {
@@ -40,30 +45,63 @@ const Skills = () => {
                             </div>
 
                         </div>
+
                         <div className="col-md-3  mb-2">
                             <div className=" c1 h-100">
                                 <img src={ReactImage} className=" image card-img-top" alt="Js_img" />
                                 <div className="card-body">
-                                    <p className="card-text">React</p>
+                                    <p className="card-text">Develops fast, reusable and component based user interfaces using React.</p>
                                 </div>
                             </div>
 
                         </div>
-                        {/* <div className="col-md-3  mb-2">
+
+                        <div className="col-md-3  mb-2">
                             <div className=" c1 h-100">
-                                <img src={} className=" image card-img-top" alt="Js_img" />
+                                <img src={mongoDBImage} className=" image card-img-top" alt="Js_img" />
                                 <div className="card-body">
-                                    <p className="card-text">MongoDB</p>
+                                    <p className="card-text">Stores and manages NoSQL data using collections and documents.</p>
                                 </div>
                             </div>
 
-                        </div> */}
+                        </div>
+                        
                         
                         <div className="col-md-3  mb-2">
                             <div className=" c1 h-100">
                                 <img src={DbImage} className=" image card-img-top" alt="Db_img" />
                                 <div className="card-body">
                                     <p className="card-text">Managing and querying relational databases using SQL.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="col-md-3  mb-2">
+                            <div className=" c1 h-100">
+                                <img src={NodeImage} className=" image card-img-top" alt="Db_img" />
+                                <div className="card-body">
+                                    <p className="card-text">Creates scalable server side applications and REST APIs.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="col-md-3  mb-2">
+                            <div className=" c1 h-100">
+                                <img src={gitImage} className=" image card-img-top" alt="Db_img" />
+                                <div className="card-body">
+                                    <p className="card-text">Tracks code changes and manages version control efficiently.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="col-md-3  mb-2">
+                            <div className=" c1 h-100">
+                                <img src={githubImage} className=" image card-img-top" alt="Db_img" />
+                                <div className="card-body">
+                                    <p className="card-text">Hosts code repositories and enables collaboration using Git.</p>
                                 </div>
                             </div>
 

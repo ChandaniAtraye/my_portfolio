@@ -5,20 +5,27 @@ const Education = () => {
         <>
             <section id="education" className="mb-3 " style={{background:"#ffffff",padding:"60px 0",scrollMarginTop:"80px"}}>
                 <div className="container">
-                     <div className=" row mb-3">
-                    <h3 className="mb-4 text-center" style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}> Education </h3>
+                    <div className=" row">
+                     <h3 className="mb-4 text-center" style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}> Education </h3>
                    
-                        <div className="col-md-4 card edu m-2 p-3">
+                        <div className="col-md-4 card edu p-3">
                             <h5> Bachelore of Electronics and Telecommunication (B.Tech)</h5>
                             <p> Jhulelal Institute of Technology ,Nagpur </p>
                             <p> 2020 - 2024 </p>
                             <strong> CGPA : 8.58/10</strong>
                         </div>
 
-                        <div className="col-md-4 card edu m-2 p-3 ">
+                        <div className="col-md-4 card edu p-3 ">
                             <h5> 12th Science </h5>
                             <p> LTRV junior college , Tumsar </p>
                             <p> 2019 - 2020 </p>
+                            <strong>percentage : 71.38%</strong>                    
+                        </div>
+
+                        <div className="col-md-4  card edu p-3 ">
+                            <h5> 10th Science </h5>
+                            <p> LTRV junior college , Tumsar </p>
+                            <p> 2017 - 2018 </p>
                             <strong>percentage : 85.20%</strong>                    
                         </div>
                     </div>

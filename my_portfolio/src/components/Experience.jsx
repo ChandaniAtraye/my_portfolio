@@ -11,7 +11,7 @@ const Experience = () => {
                         <div className="card-body">
                             <h3 className="heading">Production Trainer </h3>
                             <h6 className=" mb-2 ">Pune,maharashtra, India</h6>
-                            <strong>Dec 2025 - Oct 2025</strong>
+                            <strong>Dec 2024 - Oct 2025</strong>
                             <p className="card-text">Trained 100+ employees on PCB assembly, motor integration, and final product testing;    reduced onboarding time through
                                 structured knowledge-transfer programs.
                             </p>
