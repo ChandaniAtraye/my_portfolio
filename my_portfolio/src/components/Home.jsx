@@ -24,7 +24,7 @@ const Home = () => {
                                 </div>  
 
                                 <div className="mt-3">
-                                    <a href={`${import.meta.env.BASE_URL} Chandani_Atraye_Resume.pdf`} download className=" btn1 ">Download Resume</a>
+                                    <a href={`${import.meta.env.BASE_URL}Chandani_Atraye_Resume.pdf`} download className=" btn1 ">Download Resume</a>
                                     <a href="#contact" className=" btn1 ">Contact Me </a>
                                 </div>
                            
