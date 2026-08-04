@@ -1,0 +1,16 @@
+.about-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color:white;
+  border-radius:8px;
+  padding:8px;
+}

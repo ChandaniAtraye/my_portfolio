@@ -9,7 +9,7 @@ const Education = () => {
                      <h3 className="mb-4 text-center" style={{fontWeight:700,fontSize:"2rem",color:"#0D1B2A"}}> Education </h3>
                    
                         <div className="col-md-4 card edu p-3">
-                            <h5> Bachelore of Electronics and Telecommunication (B.Tech)</h5>
+                            <h5> Bachelor of Electronics and Telecommunication (B.Tech)</h5>
                             <p> Jhulelal Institute of Technology ,Nagpur </p>
                             <p> 2020 - 2024 </p>
                             <strong> CGPA : 8.58/10</strong>
@@ -24,7 +24,7 @@ const Education = () => {
 
                         <div className="col-md-4  card edu p-3 ">
                             <h5> 10th Science </h5>
-                            <p> LTRV junior college , Tumsar </p>
+                            <p> Z.P.High School , Dewhadi </p>
                             <p> 2017 - 2018 </p>
                             <strong>percentage : 85.20%</strong>                    
                         </div>
