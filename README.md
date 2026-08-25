@@ -1,6 +1,6 @@
 # My Portfolio
 
-A personal portfolio website built using React.js to showcase my skills, education, projects, and contact information.
+A personal portfolio website built using React.js to showcase my skills, education, projects and contact information.
 
 ## 🚀 Features
 
@@ -27,13 +27,13 @@ A personal portfolio website built using React.js to showcase my skills, educati
 
 ### Healthcare Hospital Website
 
-* Developed using HTML, CSS, Bootstrap, and JavaScript
+* Developed using HTML, CSS, Bootstrap and JavaScript
 * Includes Home, About, Departments, Doctors, Services, Appointments, Gallery, FAQs, and Contact pages
 
 ### Personal Portfolio Website
 
 * Developed using React.js 
-* Showcases personal information, skills, education, and projects
+* Showcases personal information, skills, education and projects
 
 ## 🎓 Education
 
