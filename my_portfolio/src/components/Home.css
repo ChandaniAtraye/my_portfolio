@@ -11,7 +11,11 @@
    
     border:3px solid #00C2CB;
     box-shadow: 0 8px 32px rgba(0,194,203,0.3);
+    transition: transform 0.5s;
     
+}
+.profile_img:hover{
+    transform: scale(1.05);
 }
 .intro{
     color:#ffffff;
@@ -41,15 +45,17 @@
     margin-right: 12px;
 }
 .btn1:hover{
-    border:2px solid #00C2CB;
+    outline:2px solid #00C2CB;
     color:#fff;
     
 }
 .social a{
     color:rgba(255,255,255,0.75) !important;
     transition: none !important;
+    text-decoration: none;
 }
 .social a:hover{
     color:#00C2CB !important;
+    text-decoration: underline;
     
 }

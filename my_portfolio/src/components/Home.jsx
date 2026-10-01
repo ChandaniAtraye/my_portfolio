@@ -11,7 +11,7 @@ const Home = () => {
                         <div className=" intro col-md-6 p-4">
                             <h1> Hi, I am Chandani Atraye </h1>
                             <p>“My goal is not to be better than anyone else, but to be better than I used to be.”</p>
-                            <h4> Frontend Developer | React.js Developer</h4>
+                            <h4>  MERN Stack Developer</h4>
                             <p>Building responsive and user-friendly web applications.</p>
                             <div className="social">
                                 <a className="text-white" href="mailto:chandaniatraye5010@gmail.com">Email</a>
